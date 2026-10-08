@@ -179,3 +179,183 @@
               color: blue;
               text-decoration: underline;
             }
+            @media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .login-page-container {
+        width: 100%;
+        height: auto;
+        min-height: 650px;
+        margin: 20px auto;
+    }
+
+    .login-form-container {
+        width: 90%;
+        height: auto;
+        min-height: 570px;
+        margin: 15px;
+        padding: 30px 20px;
+    }
+
+    .login-form input {
+        width: 100%;
+    }
+
+    .options {
+        width: 100%;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .login-btn {
+        width: 70%;
+    }
+
+    .others {
+        width: 100%;
+    }
+
+    .social-logo {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .login-page-container {
+        width: 100%;
+        min-height: 600px;
+        margin: 10px auto;
+        border-radius: 20px;
+    }
+
+    .login-form-container {
+        width: 92%;
+        min-height: 540px;
+        margin: 10px;
+        padding: 25px 15px;
+        border-radius: 25px;
+    }
+
+    .login-form-container h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .login-form label {
+        font-size: 16px;
+    }
+
+    .login-form input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .options {
+        width: 100%;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .login-btn {
+        width: 80%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .others p {
+        font-size: 15px;
+    }
+
+    .social-logo {
+        gap: 10px;
+    }
+
+    .social-icon {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    .login-page-container {
+        min-height: 560px;
+    }
+
+    .login-form-container {
+        width: 95%;
+        min-height: 510px;
+        padding: 20px 10px;
+    }
+
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .login-form-container h1 {
+        font-size: 25px;
+    }
+
+    .login-form input {
+        font-size: 13px;
+    }
+
+    .options {
+        font-size: 12px;
+    }
+
+    .login-btn {
+        width: 85%;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .others p {
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    .login-page-container {
+        width: 500px;
+        max-width: 90%;
+    }
+
+    .login-form-container {
+        width: 400px;
+        max-width: 90%;
+    }
+
+    .login-form input {
+        width: 150%;
+    }
+}
+
+
+@media (min-width: 901px) {
+
+    .login-page-container {
+        width: 500px;
+    }
+
+    .login-form-container {
+        width: 400px;
+    }
+}
